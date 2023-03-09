@@ -107,7 +107,7 @@ h1,h2,h3,h4 {
 }
 
 .form-container {
-    width: 80%;
+    max-width: 500px;
     margin: 0 auto;
 }
 
@@ -139,7 +139,7 @@ h1,h2,h3,h4 {
     background: linear-gradient(#ff713b, #ffa51d);
     color: #fff;
     margin-bottom: 1rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-transform: uppercase;
     cursor: pointer;
     transition: opacity linear 150ms;
@@ -181,9 +181,6 @@ h1,h2,h3,h4 {
 
     .form-container input:not([type=submit]) {
         padding: 1em;
-        font-size: 1rem;
-    }
-    .btn {
         font-size: 1rem;
     }
 }
