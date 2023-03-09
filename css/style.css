@@ -32,7 +32,7 @@ h1,h2,h3,h4 {
 }
 
 .left {
-    height: 35vh;
+    min-height: 45vh;
     background-image: url('../img/dark-ribs.jpg');
     background-size: cover;
     color: #fff;
